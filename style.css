@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background: linear-gradient(to left bottom, lightblue, lightgreen, lightblue);
+  /* center the div*/
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* center the div*/
+  font-family: monospace;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, bl0ue, 0.3);
+  border-radius: 15px;
+  width: 80%;
+  text-align: center;
+}
+
+.heading {
+  color: blue;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.btn {
+  background-color: blueviolet;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: burlywood;
+  cursor: pointer;
+}
